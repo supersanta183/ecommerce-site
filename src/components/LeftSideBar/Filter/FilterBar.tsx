@@ -4,8 +4,8 @@ import Filter from './Filter'
 
 const FilterBar = () => {
   return (
-    <div className='border-2 border-black w-2/12 h-full'>
-      <Filter/>
+    <div className='h-full w-full'>
+      <div className=' fixed w-2/12'><Filter/></div>
     </div>
   )
 }

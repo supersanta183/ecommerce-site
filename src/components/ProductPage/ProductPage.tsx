@@ -13,7 +13,7 @@ const ProductPage = ({ products, isFetching }: ProductPageProps) => {
   return (
     <>
       {isFetching && <Loading />}
-      {!isFetching && <div className="h-full w-full flex flex-wrap items-start">
+      {!isFetching && <div className="h-full w-full flex flex-wrap items-center justify-center">
         {products?.map((p) => (
           <Product product={p} key={p.id} />
         ))}

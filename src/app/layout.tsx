@@ -10,7 +10,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="h-full">
-      <body className=" bg-base-200 h-full">
+      <body className=" bg-base-200 h-fit">
           <ProductsProvider>
             <Navbar />
             {children}

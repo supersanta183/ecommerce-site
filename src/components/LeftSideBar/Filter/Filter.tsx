@@ -6,7 +6,7 @@ import SizeFilterButtons from "./FilterButtons/SizeFilterButtons";
 
 const Filter = () => {
   return (
-    <div>
+    <div className="">
       <div className="collapse collapse-plus bg-base-200">
         <input type="radio" name="my-accordion-3" />
         <div className="collapse-title text-xl font-medium">Category</div>
